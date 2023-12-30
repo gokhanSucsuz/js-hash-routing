@@ -34,6 +34,19 @@ function checkRoute(hash = window.location.hash) {
     app.innerHTML = "";
     const div1 = document.createElement("div");
     div1.classList.add("card-group");
+    const h1 = document.createElement("h1");
+    h1.innerHTML = "Fetch API was used this page...";
+    h1.classList.add(
+      "fw-bolder",
+      "fs-2",
+      "w-100",
+      "shadow-sm",
+      "rounded-3",
+      "text-warning",
+      "p-3",
+      "text-center"
+    );
+    div1.append(h1);
     app.append(div1);
 
     fetch(dataUrl)

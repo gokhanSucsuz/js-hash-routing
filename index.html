@@ -10,14 +10,6 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style>
-      .active {
-        background-color: #0dcaf0 !important;
-      }
-      .tab-pane {
-        background-color: white !important;
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-info rounded-3" data-bs-theme="dark">
@@ -56,9 +48,162 @@
       <div class="row">
         <div class="col-sm-12 mt-5">
           <div id="app" class="shadow-lg p-3 rounded-3 row">
+            <h1 class="lead fw-bolder">Index PAGE</h1>
+            <div class="col-sm-12 shadow py-5 my-5 rounded-2">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel slide w-75 m-auto"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active bg-success-subtle"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    class="bg-success-subtle"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    class="bg-success-subtle"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=22"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=25"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=56"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=36"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=47"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=1"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=2"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=3"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=19"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=4"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=5"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <img
+                          src="https://picsum.photos/600/400?random=6"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon bg-danger rounded-5"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon bg-danger rounded-5"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
             <div class="row">
               <div class="col-4">
-                <h1>Index PAGE</h1>
                 <div class="list-group" id="list-tab" role="tablist">
                   <a
                     class="list-group-item list-group-item-action active"
