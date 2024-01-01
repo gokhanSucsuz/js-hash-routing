@@ -77,3 +77,15 @@ myHashLinks.forEach((item) =>
     checkRoute(item.hash);
   })
 );
+
+const priceList = ["apple", "kiwi", "banana", "cherry", "orange"];
+
+const newPriceList = priceList
+  .map((value, index) => {
+    return value + "-" + index;
+  })
+  .filter((value) => {
+    return value.includes("-2");
+  });
+
+console.log(newPriceList);
